@@ -1,0 +1,1722 @@
+@import url('FlamingParrot_DarkBlueGrey-IE9-blessed1.css?z=1451573744943');
+
+
+@media only screen and (max-width: 480px) {
+  body,
+  table,
+  td,
+  p,
+  a,
+  li,
+  blockquote {
+    -webkit-text-size-adjust: none !important;
+  }
+  body {
+    width: 100% !important;
+    min-width: 100% !important;
+  }
+  td[id=bodyCell] {
+    padding: 10px !important;
+  }
+  table.kmMobileHide {
+    display: none !important;
+  }
+  table[class=kmTextContentContainer] {
+    width: 100% !important;
+  }
+  table[class=kmBoxedTextContentContainer] {
+    width: 100% !important;
+  }
+  td[class=kmImageContent] {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  img[class=kmImage] {
+    width: 100% !important;
+  }
+  td.kmMobileStretch {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  table[class=kmSplitContentLeftContentContainer],
+  table[class=kmSplitContentRightContentContainer],
+  table[class=kmColumnContainer],
+  td[class=kmVerticalButtonBarContentOuter] table[class=kmButtonBarContent],
+  td[class=kmVerticalButtonCollectionContentOuter] table[class=kmButtonCollectionContent],
+  table[class=kmVerticalButton],
+  table[class=kmVerticalButtonContent] {
+    width: 100% !important;
+  }
+  td[class=kmButtonCollectionInner] {
+    padding-top: 9px !important;
+    padding-right: 9px !important;
+    padding-bottom: 0 !important;
+    padding-left: 9px !important;
+    background-color: transparent !important;
+  }
+  td[class=kmVerticalButtonIconContent],
+  td[class=kmVerticalButtonTextContent],
+  td[class=kmVerticalButtonContentOuter] {
+    padding-right: 0 !important;
+    padding-bottom: 9px !important;
+    padding-left: 0 !important;
+  }
+  table[class=kmSplitContentLeftContentContainer] td[class=kmTextContent],
+  table[class=kmSplitContentRightContentContainer] td[class=kmTextContent],
+  table[class=kmColumnContainer] td[class=kmTextContent],
+  table[class=kmSplitContentLeftContentContainer] td[class=kmImageContent],
+  table[class=kmSplitContentRightContentContainer] td[class=kmImageContent] {
+    padding-top: 9px !important;
+  }
+  td[class="rowContainer kmFloatLeft"],
+  td[class="rowContainer kmFloatLeft firstColumn"],
+  td[class="rowContainer kmFloatLeft lastColumn"] {
+    float: left;
+    width: 100% !important;
+    clear: both;
+  }
+  table[id=templateContainer],
+  table[class=templateRow] {
+    width: 100% !important;
+    max-width: 600px !important;
+  }
+  h1 {
+    font-size: 40px !important;
+    line-height: 130% !important;
+  }
+  h2 {
+    font-size: 32px !important;
+    line-height: 130% !important;
+  }
+  h3 {
+    font-size: 24px !important;
+    line-height: 130% !important;
+  }
+  h4 {
+    font-size: 18px !important;
+    line-height: 130% !important;
+  }
+  td[class=kmTextContent] {
+    font-size: 14px !important;
+    line-height: 130% !important;
+  }
+  td[class=kmTextBlockInner] td[class=kmTextContent] {
+    padding-right: 18px !important;
+    padding-left: 18px !important;
+  }
+  table[class="kmTableBlock kmTableMobile"] td[class=kmTableBlockInner] {
+    padding-right: 9px !important;
+    padding-left: 9px !important;
+  }
+  table[class="kmTableBlock kmTableMobile"] td[class=kmTableBlockInner] [class=kmTextContent] {
+    padding-right: 4px !important;
+    padding-left: 4px !important;
+    font-size: 14px !important;
+    line-height: 130% !important;
+  }
+}
+
+#project-confirmation-header {
+  height: 336px;
+  background-image: url("../images/project-registration-feedback-background.png");
+  background-position: center top;
+}
+
+#project-confirmation-header h2 {
+  padding: 345px 0 50px;
+  margin: 0;
+  font-family: SourceSansPro;
+  font-size: 38px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#project-confirmation-content {
+  padding: 80px 0 0 0;
+  font-family: SourceSansPro;
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+#project-confirmation-content i {
+  position: relative;
+  top: -8px;
+  left: 8px;
+  display: inline-block;
+  -webkit-transform: rotate(20deg);
+     -moz-transform: rotate(20deg);
+      -ms-transform: rotate(20deg);
+       -o-transform: rotate(20deg);
+          transform: rotate(20deg);
+  -sand-transform: rotate(20deg);
+}
+
+#project-confirmation-thanks {
+  padding: 70px 0 30px;
+  font-family: kalamregular;
+  font-size: 23px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#project-confirmation-redirect {
+  padding: 50px 0 100px;
+  font-family: SourceSansPro;
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/**
+ * Copyright (c) Enalean, 2014. All Rights Reserved.
+ *
+ * This file is a part of Tuleap.
+ *
+ * Tuleap is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * Tuleap is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Tuleap. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+html,
+body {
+  height: 100%;
+}
+
+body.FlamingParrot_DarkBlueGrey {
+  /**
+ * Copyright (c) Enalean, 2014. All Rights Reserved.
+ *
+ * This file is a part of Tuleap.
+ *
+ * Tuleap is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * Tuleap is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Tuleap. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+  /**
+ * Copyright (c) Enalean, 2014 - 2015. All Rights Reserved.
+ *
+ * This file is a part of Tuleap.
+ *
+ * Tuleap is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * Tuleap is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Tuleap. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+  /* Start BOOTSTRAP OVERRIDES */
+
+  /* End BOOTSTRAP OVERRIDES */
+
+}
+
+body.FlamingParrot_DarkBlueGrey .logo {
+  float: left;
+  width: 200px;
+  height: 45px;
+  max-width: 200px;
+  background: #2b2b2b url('../images/organization_logo.png') no-repeat center center;
+}
+
+body.FlamingParrot_DarkBlueGrey .logo-background {
+  background: #2b2b2b url('../images/organization_logo.png') no-repeat center center;
+}
+
+body.FlamingParrot_DarkBlueGrey .logo-background-medium {
+  background: #2b2b2b url('../images/organization_logo_medium.png') no-repeat center center;
+}
+
+body.FlamingParrot_DarkBlueGrey .logo-background-small {
+  background: #2b2b2b url('../images/organization_logo_small.png') no-repeat center center;
+}
+
+@media screen and (max-width: 1366px) {
+  body.FlamingParrot_DarkBlueGrey .logo {
+    float: left;
+    width: 155px;
+    max-width: 155px;
+    background: #2b2b2b url('../images/organization_logo_medium.png') no-repeat center center;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  body.FlamingParrot_DarkBlueGrey .logo {
+    float: left;
+    width: 45px;
+    max-width: 45px;
+    background: #2b2b2b url('../images/organization_logo_small.png') no-repeat center center;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  body.FlamingParrot_DarkBlueGrey .navbar-fixed-top {
+    position: fixed;
+    margin: 0;
+  }
+}
+
+body.FlamingParrot_DarkBlueGrey .is-at-top .navbar {
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar {
+  height: 45px;
+  background: #2b2b2b;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar > .motd {
+  padding: 13px 10px 12px;
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  color: #ffffff;
+  text-align: center;
+  background: #0e73c2;
+}
+
+@media screen and (max-width: 880px) {
+  body.FlamingParrot_DarkBlueGrey .navbar {
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body.FlamingParrot_DarkBlueGrey .navbar {
+    height: 135px;
+  }
+}
+
+body.FlamingParrot_DarkBlueGrey .is-at-top .navbar {
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner {
+  height: 45px;
+  padding: 0;
+  font-family: 'SourceSansPro', Arial;
+  font-size: 1.1em;
+  color: #ffffff;
+  background: #2b2b2b;
+  border-bottom: 1px solid #5b6c79;
+  filter: none;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+@media screen and (max-width: 1400px) {
+  body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner {
+    font-size: 0.9em;
+  }
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .container-fluid {
+  padding: 0;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .brand {
+  padding: 0;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav {
+  height: 45px;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav > li {
+  height: 45px;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav > li > a {
+  height: 29px;
+  padding: 12px 20px 5px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 2px #6a6a6a;
+}
+
+@media screen and (max-width: 1024px) {
+  body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav > li > a {
+    padding: 12px 15px 5px;
+  }
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li:hover > a,
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li:hover > a:hover,
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li:hover > a:focus,
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li.active > a,
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li.active > a:hover,
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li.active > a:focus,
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li.dropdown.active > .dropdown-toggle {
+  color: #ffffff;
+  background-color: #5b6c79;
+  box-shadow: none;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li.dropdown > a .caret,
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li.dropdown > a:hover .caret,
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li.dropdown > a:focus .caret,
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li.dropdown.open > .dropdown-toggle .caret,
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li.dropdown.active > .dropdown-toggle .caret,
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li.dropdown.open.active > .dropdown-toggle .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li.dropdown.open > .dropdown-toggle,
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li.dropdown.open.active > .dropdown-toggle {
+  color: #ffffff;
+  background-color: #373737;
+  box-shadow: none;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li > a.username {
+  max-width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 1250px) {
+  body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li.user-menu {
+    width: 50px;
+  }
+  body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li.user-menu > a.username {
+    width: 50px;
+    padding-left: 8px;
+  }
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li.current-project > a {
+  height: 45px;
+  overflow: hidden;
+  text-align: left;
+  white-space: nowrap;
+  background-color: #505f6a;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li.current-project > a:before {
+  content: '';
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li.current-project > a i {
+  margin-right: 5px;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li.current-project.cutted > a {
+  width: 180px;
+  text-overflow: ellipsis;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li.current-project:hover > a:hover,
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav li.current-project:focus > a:focus {
+  background-color: #4c5a65;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav ul.dropdown-menu {
+  top: 44px;
+  min-width: 100%;
+  padding: 0;
+  background-color: #373737;
+  border: none;
+  border-radius: 0;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav ul.dropdown-menu:before,
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav ul.dropdown-menu:after {
+  content: none;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav ul.dropdown-menu li:first-child {
+  margin-top: 5px;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav ul.dropdown-menu li:last-child {
+  margin-bottom: 5px;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav ul.dropdown-menu li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-size: 0.9em;
+  font-weight: normal;
+  line-height: 1.7em;
+  line-height: 20px;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav ul.dropdown-menu li > a:hover a {
+  text-decoration: none;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav ul.dropdown-menu li > a:hover,
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav ul.dropdown-menu li > a:focus,
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav ul.dropdown-menu .dropdown-submenu:hover > a,
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav ul.dropdown-menu .dropdown-submenu:focus > a {
+  text-decoration: none;
+  background: #515151;
+  background-image: none;
+  filter: none;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav ul.dropdown-menu .divider {
+  background-color: #2a2a2a;
+  border: 0;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav .projects-nav ul.dropdown-menu {
+  width: 300px;
+  max-height: 590px;
+  overflow: hidden;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav .projects-nav ul.dropdown-menu #filter-projects {
+  display: block;
+  width: 85%;
+  margin: 10px auto;
+  color: #9d9d9d;
+  background: #515151;
+  border-color: #2f2f2f;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .nav .projects-nav ul.dropdown-menu #filter-projects:focus {
+  background: #5d5d5d;
+  box-shadow: none;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .user-avatar {
+  position: relative;
+  top: -8px;
+  float: left;
+  width: 36px;
+  height: 36px;
+  margin: 0 10px 0 0;
+  border-radius: 50%;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .navbar-search {
+  margin: 8px 25px 0 0;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .navbar-search input[type="text"] {
+  border: 1px solid #5b6c79;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .navbar-search input[type="text"]:focus {
+  z-index: 0;
+  box-shadow: none;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .navbar-search .btn {
+  padding: 3px 18px 5px;
+  background-color: #5b6c79;
+  background-image: -moz-linear-gradient(top, #728695, #5b6c79);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#728695), to(#5b6c79));
+  background-image: -webkit-linear-gradient(top, #728695, #5b6c79);
+  background-image: -o-linear-gradient(top, #728695, #5b6c79);
+  background-image: linear-gradient(to bottom, #728695, #5b6c79);
+  border: 1px solid #5b6c79;
+  border-color: #5b6c79;
+  border-bottom-color: #505f6a;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .navbar-search .btn i {
+  color: #FFFFFF;
+  text-shadow: 0 1px 2px #777777;
+}
+
+body.FlamingParrot_DarkBlueGrey .navbar .navbar-inner .navbar-search .input-append {
+  margin-bottom: 0;
+}
+
+body.FlamingParrot_DarkBlueGrey .sidebar-nav {
+  position: fixed;
+  z-index: 1000;
+  width: 200px;
+  height: 100%;
+  max-width: 200px;
+  padding: 0 0 150px 0;
+  overflow: hidden;
+  font-family: 'SourceSansPro', Arial;
+  background: #2f2f2f;
+  background: -moz-linear-gradient(top, #464646 0%, #373737 150px);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #464646), color-stop(150px, #373737));
+  background: -webkit-linear-gradient(top, #464646 0%, #373737 150px);
+  background: -o-linear-gradient(top, #464646 0%, #373737 150px);
+  background: -ms-linear-gradient(top, #464646 0%, #373737 150px);
+  background: linear-gradient(to bottom, #464646 0%, #373737 150px);
+}
+
+@media screen and (max-width: 880px) {
+  body.FlamingParrot_DarkBlueGrey .sidebar-nav {
+    padding: 45px 0 150px 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body.FlamingParrot_DarkBlueGrey .sidebar-nav {
+    padding: 90px 0 150px 0;
+  }
+}
+
+body.FlamingParrot_DarkBlueGrey .sidebar-nav a.project-title {
+  display: block;
+  padding: 10px 0;
+  margin: 0 0 20px 0;
+  font-size: 1.6em;
+  line-height: 1.5em;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: inset 0 -7px 30px -10px #2a2a2a;
+}
+
+body.FlamingParrot_DarkBlueGrey .sidebar-nav a.project-title:hover {
+  text-decoration: none;
+  box-shadow: inset 0 -10px 30px -10px #252525;
+}
+
+body.FlamingParrot_DarkBlueGrey .sidebar-nav a.project-title i {
+  margin-right: 5px;
+  font-size: 0.7em;
+  color: #9d9d9d;
+}
+
+body.FlamingParrot_DarkBlueGrey .sidebar-nav li > a {
+  display: block;
+  width: 200px;
+  padding: 7px 12px 7px 10px;
+  color: #9d9d9d;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+  border-left: 3px solid transparent;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
+body.FlamingParrot_DarkBlueGrey .sidebar-nav .nav-list > .active > a,
+body.FlamingParrot_DarkBlueGrey .sidebar-nav .nav-list > .active > a:hover,
+body.FlamingParrot_DarkBlueGrey .sidebar-nav .nav-list > .active > a:focus {
+  font-weight: normal;
+  color: #dddddd;
+  background: none;
+  background: #2f2f2f url('../images/sidebar_active.png') right center no-repeat;
+  border-left: 3px solid #5b6c79;
+}
+
+body.FlamingParrot_DarkBlueGrey .sidebar-nav .nav > li > a:hover,
+body.FlamingParrot_DarkBlueGrey .sidebar-nav .nav > li > a:focus {
+  color: #9d9d9d;
+  background: none;
+  background: #2f2f2f;
+  border-left: 3px solid #2f2f2f;
+}
+
+body.FlamingParrot_DarkBlueGrey .sidebar-nav i.sidebar-collapse {
+  display: block;
+  width: 30px;
+  height: 30px;
+  padding: 8px 2px 0 0;
+  margin: 10px auto;
+  font-size: 1em;
+  color: #9d9d9d;
+  text-align: center;
+  cursor: pointer;
+  background: #2a2a2a;
+  border-radius: 50%;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
+body.FlamingParrot_DarkBlueGrey .sidebar-nav i.sidebar-collapse.icon-chevron-right {
+  padding: 8px 0 0 0;
+  margin: 10px 8px;
+}
+
+body.FlamingParrot_DarkBlueGrey .sidebar-nav i.sidebar-collapse:hover {
+  color: #b7b7b7;
+  background: #2f2f2f;
+}
+
+body.FlamingParrot_DarkBlueGrey .sidebar-about {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  height: 25px;
+  padding: 33px 0 20px 0;
+  text-align: center;
+  background: #373737 url('../images/sidebar_tuleap.png') no-repeat center top;
+}
+
+body.FlamingParrot_DarkBlueGrey .sidebar-about p {
+  margin: 0;
+  font-size: 0.8em;
+  color: #686868;
+  text-shadow: 0 1px 0 #1e1e1e;
+}
+
+body.FlamingParrot_DarkBlueGrey .sidebar-about p a {
+  color: #9d9d9d;
+}
+
+body.FlamingParrot_DarkBlueGrey .sidebar-about p a:hover {
+  color: #b7b7b7;
+  text-decoration: none;
+}
+
+body.FlamingParrot_DarkBlueGrey .main {
+  padding: 0;
+}
+
+@media screen and (max-width: 880px) {
+  body.FlamingParrot_DarkBlueGrey .main {
+    padding: 45px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body.FlamingParrot_DarkBlueGrey .main {
+    padding: 90px 0 0 0;
+  }
+}
+
+body.FlamingParrot_DarkBlueGrey .main #feedback ul {
+  margin: 12px;
+}
+
+body.FlamingParrot_DarkBlueGrey .main .breadcrumb {
+  min-height: 20px;
+  padding: 10px 10px;
+  font-family: 'SourceSansPro', Arial;
+  font-size: 1em;
+  color: #9d9d9d;
+  text-shadow: 0 1px 0 #1e1e1e;
+  background-color: #414141;
+  border-radius: 0;
+}
+
+body.FlamingParrot_DarkBlueGrey .main .breadcrumb li > a,
+body.FlamingParrot_DarkBlueGrey .main .breadcrumb li > .divider {
+  color: #9d9d9d;
+  text-shadow: 0 1px 0 #1e1e1e;
+}
+
+body.FlamingParrot_DarkBlueGrey .main .breadcrumb li > a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+body.FlamingParrot_DarkBlueGrey .main .breadcrumb li:first-child > .divider {
+  display: none;
+}
+
+body.FlamingParrot_DarkBlueGrey .main .breadcrumb li:last-child > a {
+  font-weight: normal;
+  color: #ffffff;
+}
+
+body.FlamingParrot_DarkBlueGrey .main .toolbar.nav-pills {
+  padding: 2px 0;
+  margin: 0;
+  font-family: 'SourceSansPro', Arial;
+  font-size: 1em;
+  background: #ebebeb;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+body.FlamingParrot_DarkBlueGrey .main .toolbar.nav-pills li > a {
+  font-weight: normal;
+  color: #686868;
+  background: none;
+}
+
+body.FlamingParrot_DarkBlueGrey .main .toolbar.nav-pills li > a:hover,
+body.FlamingParrot_DarkBlueGrey .main .toolbar.nav-pills li > a:focus {
+  font-weight: normal;
+  color: #373737;
+  background: none;
+}
+
+body.FlamingParrot_DarkBlueGrey .main .content {
+  padding: 12px 12px 150px 12px;
+}
+
+body.FlamingParrot_DarkBlueGrey footer {
+  width: 100%;
+  height: 200px;
+  padding: 0;
+  font-size: 0.8em;
+  background: #fcfcfc;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y3ZjdmNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #fcfcfc 0%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcfcfc), color-stop(100%, #ffffff));
+  background: -webkit-linear-gradient(top, #fcfcfc 0%, #ffffff 100%);
+  background: -o-linear-gradient(top, #fcfcfc 0%, #ffffff 100%);
+  background: -ms-linear-gradient(top, #fcfcfc 0%, #ffffff 100%);
+  background: linear-gradient(to bottom, #fcfcfc 0%, #ffffff 100%);
+  border-top: 1px solid #F1F1F1;
+  border-bottom: 1px solid #F1F1F1;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#ffffff', GradientType=0);
+}
+
+body.FlamingParrot_DarkBlueGrey #footer_debug_separator {
+  padding-top: 24px;
+  padding-bottom: 1em;
+  margin-top: 50px;
+  color: #333;
+  background: #ffffff url(../images/debug_gradient.png) top left repeat-x;
+}
+
+body.FlamingParrot_DarkBlueGrey #footer_debug {
+  margin-top: 10px;
+}
+
+body.FlamingParrot_DarkBlueGrey #footer_debug_content {
+  padding: 10px;
+  color: #333333;
+  background: #EBEBEB;
+}
+
+body.FlamingParrot_DarkBlueGrey #footer_debug_content fieldset legend {
+  padding-left: 1em;
+  color: #333333;
+}
+
+body.FlamingParrot_DarkBlueGrey #footer_debug_content td {
+  color: #333333;
+}
+
+body.FlamingParrot_DarkBlueGrey #footer_debug_content pre {
+  color: #404040;
+}
+
+body.FlamingParrot_DarkBlueGrey #register-background {
+  background-color: #FBFBFB;
+  background-image: url('../images/register_background.png'), url('../images/register_background_bar.png');
+  background-position: center 333px, center 658px;
+  background-repeat: no-repeat, repeat-x;
+}
+
+body.FlamingParrot_DarkBlueGrey #register-form {
+  position: relative;
+  width: 445px;
+  margin: 70px auto;
+  background: #FFF;
+  border: 1px solid #ECECEC;
+  border-radius: 4px;
+}
+
+body.FlamingParrot_DarkBlueGrey #register-form .popover {
+  font-size: 0.9em;
+}
+
+body.FlamingParrot_DarkBlueGrey #register-form h2 {
+  padding: 22px;
+  text-align: center;
+  border-bottom: 1px dashed #E8E8E8;
+}
+
+body.FlamingParrot_DarkBlueGrey #register-form form {
+  padding: 30px 40px 50px;
+}
+
+body.FlamingParrot_DarkBlueGrey #register-form form .placeholder {
+  color: #AAA;
+}
+
+body.FlamingParrot_DarkBlueGrey #register-form form .fields {
+  width: 270px;
+  margin: 0 auto 30px;
+}
+
+body.FlamingParrot_DarkBlueGrey #register-form form label {
+  margin: 0 0 15px 0;
+}
+
+body.FlamingParrot_DarkBlueGrey #register-form form label .label-help {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.8em;
+  font-style: italic;
+  line-height: 1.4em;
+  color: #AAA;
+}
+
+body.FlamingParrot_DarkBlueGrey #register-form form input[type="text"],
+body.FlamingParrot_DarkBlueGrey #register-form form input[type="email"],
+body.FlamingParrot_DarkBlueGrey #register-form form input[type="password"] {
+  width: 256px;
+  height: 30px;
+  margin: 0 auto 10px;
+}
+
+body.FlamingParrot_DarkBlueGrey #register-form form .input-prepend input[type="text"] {
+  width: 219px;
+}
+
+body.FlamingParrot_DarkBlueGrey #register-form form .input-prepend .add-on {
+  padding: 9px 10px;
+}
+
+body.FlamingParrot_DarkBlueGrey #register-form form textarea {
+  width: 256px;
+  margin: 0 auto 10px;
+}
+
+body.FlamingParrot_DarkBlueGrey #register-form form select {
+  display: block;
+  width: 270px;
+  height: 40px;
+  padding: 8px 5px;
+  margin: 0 auto 10px;
+}
+
+body.FlamingParrot_DarkBlueGrey #register-form form input[type="submit"] {
+  display: block;
+  width: 270px;
+  height: 55px;
+  margin: 40px auto 0;
+  font-size: 1.2em;
+}
+
+body.FlamingParrot_DarkBlueGrey #register-form form .mandatory {
+  font-size: 0.8em;
+  color: #E69494;
+  text-align: center;
+}
+
+body.FlamingParrot_DarkBlueGrey #register-form form .legal {
+  margin: 30px 0 0 0;
+  font-size: 0.8em;
+  color: #AAA;
+  text-align: center;
+}
+
+body.FlamingParrot_DarkBlueGrey .shortcut {
+  display: inline-block;
+  width: 60px;
+  font-weight: bold;
+}
+
+body.FlamingParrot_DarkBlueGrey .tips {
+  padding: 15px;
+}
+
+body.FlamingParrot_DarkBlueGrey .widget {
+  border: none;
+}
+
+body.FlamingParrot_DarkBlueGrey .widget .widget_titlebar {
+  padding: 8px 12px 10px;
+  font-family: 'SourceSansPro', 'Helvetica Neue', Arial;
+  font-weight: 400;
+  color: #5b6c79;
+  background: #FFF;
+  border-top: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9;
+  border-bottom: 1px solid #5b6c79;
+  border-left: 1px solid #e9e9e9;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+body.FlamingParrot_DarkBlueGrey .widget.minimized .widget_titlebar {
+  border-bottom: 1px solid #e9e9e9;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+body.FlamingParrot_DarkBlueGrey .widget .widget_content {
+  padding: 12px;
+  font-size: 0.9em;
+  border-top: 1px solid #5b6c79;
+  border-right: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+  border-left: 1px solid #e9e9e9;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+body.FlamingParrot_DarkBlueGrey div.avatar {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+}
+
+body.FlamingParrot_DarkBlueGrey div.avatar img {
+  margin: 0;
+  vertical-align: top;
+  border-radius: 50%;
+}
+
+body.FlamingParrot_DarkBlueGrey .search-bar {
+  background: #F5F5F5;
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+body.FlamingParrot_DarkBlueGrey .search-bar form .input-append input {
+  color: #5b6c79;
+}
+
+body.FlamingParrot_DarkBlueGrey .search-bar form .input-append button {
+  color: #FFFFFF;
+  background: #5b6c79;
+  transition: background 0.1s linear;
+}
+
+body.FlamingParrot_DarkBlueGrey .search-bar form .input-append button:hover {
+  background: #627482;
+  transition: background 0.1s linear;
+}
+
+body.FlamingParrot_DarkBlueGrey .additional-search-tabs li > a {
+  color: #777;
+}
+
+body.FlamingParrot_DarkBlueGrey .additional-search-tabs li > a:hover {
+  color: #5b6c79;
+  box-shadow: inset 0 -2px 0 #5b6c79;
+}
+
+body.FlamingParrot_DarkBlueGrey .additional-search-tabs li.active > a {
+  color: #5b6c79;
+  box-shadow: inset 0 -2px 0 #5b6c79;
+}
+
+body.FlamingParrot_DarkBlueGrey .search-panes .search-pane .search-pane-header {
+  color: #5b6c79;
+  border-color: #5b6c79;
+}
+
+body.FlamingParrot_DarkBlueGrey .search-panes .search-pane .search-pane-body ul li a.active,
+body.FlamingParrot_DarkBlueGrey .search-panes .search-pane .search-pane-body ul li span.active {
+  color: #5b6c79;
+  text-decoration: none;
+}
+
+body.FlamingParrot_DarkBlueGrey #search-results ul li a {
+  color: #5b6c79;
+}
+
+body.FlamingParrot_DarkBlueGrey #search-results ul li a:hover {
+  color: #5b6c79;
+}
+
+body.FlamingParrot_DarkBlueGrey .priora {
+  background-color: #dadada;
+}
+
+body.FlamingParrot_DarkBlueGrey .priorb {
+  background-color: #dad0d0;
+}
+
+body.FlamingParrot_DarkBlueGrey .priorc {
+  background-color: #dacaca;
+}
+
+body.FlamingParrot_DarkBlueGrey .priord {
+  background-color: #dac0c0;
+}
+
+body.FlamingParrot_DarkBlueGrey .priore {
+  background-color: #dababa;
+}
+
+body.FlamingParrot_DarkBlueGrey .priorf {
+  background-color: #dab0b0;
+}
+
+body.FlamingParrot_DarkBlueGrey .priorg {
+  background-color: #daaaaa;
+}
+
+body.FlamingParrot_DarkBlueGrey .priorh {
+  background-color: #da9090;
+}
+
+body.FlamingParrot_DarkBlueGrey .priori {
+  background-color: #da8a8a;
+}
+
+body.FlamingParrot_DarkBlueGrey #artifacts_result > table {
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+
+body.FlamingParrot_DarkBlueGrey #artifacts_result > table th.boxtitle {
+  background-color: #f1f1f1;
+}
+
+body.FlamingParrot_DarkBlueGrey .boxhighlight {
+  color: #333333;
+  text-align: left;
+  background-color: #ffe0db;
+}
+
+body.FlamingParrot_DarkBlueGrey .wikitext h4 {
+  font-size: 1.1em;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main {
+  overflow-x: hidden;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main a {
+  color: #5b6c79;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main #feedback {
+  position: absolute;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content {
+  padding: 0;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta {
+  min-height: 752px;
+  background: url('../images/homepage/header-background.png') no-repeat top center;
+  border-bottom: 3px solid #5b6c79;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta.with-news {
+  min-height: 834px;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .head {
+  min-height: 350px;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.03) 100%);
+  border-bottom: 1px solid rgba(204, 204, 204, 0.25);
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .head img {
+  margin: 70px auto 40px;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .head p {
+  padding: 0 100px;
+  font-family: 'SourceSansPro', Arial;
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.8em;
+  letter-spacing: 0.03em;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta {
+  padding: 80px 0 0;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta h3 {
+  margin: 0 0 20px;
+  margin-top: 0;
+  font-family: 'SourceSansPro', Arial;
+  font-size: 2em;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  color: #262626;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .homepage-discover {
+  height: 325px;
+  text-align: center;
+  background: url(../images/homepage/discover-awesomeness-screenshots.png) no-repeat left bottom;
+  box-sizing: border-box;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .homepage-news {
+  font-family: 'SourceSansPro', Arial;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .homepage-news .news {
+  margin: 0 0 30px;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .homepage-news .news h4 {
+  margin: 0 0 10px;
+  font-size: 1.4em;
+  font-weight: 300;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .homepage-news .news hr {
+  display: none;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .homepage-news .news small {
+  margin: 10px 0 0;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .homepage-news div:last-child {
+  display: none;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .statistics {
+  min-height: 263px;
+  margin-top: 20px;
+  font-family: 'SourceSansPro', Arial;
+  font-size: 1.6em;
+  line-height: 2em;
+  text-align: center;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .statistics > p {
+  margin-top: 30px;
+  font-weight: 300;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .statistics > p > span {
+  display: block;
+  font-size: 2.4em;
+  font-weight: bold;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .statistics > p > span.nb-projects {
+  color: #4195C8;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .statistics > p > span.nb-users {
+  color: #67AD46;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .sign-in > .input-prepend {
+  position: relative;
+  width: 100%;
+  height: 40px;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .sign-in > .input-prepend > .add-on {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  width: 24px;
+  height: 24px;
+  padding-top: 10px;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .sign-in > .input-prepend > .add-on i {
+  font-size: 1.1em;
+  color: #666666;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .sign-in > .input-prepend > input {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 40px;
+  padding-left: 44px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .sign-in > button[type=submit] {
+  width: 100%;
+  font-family: 'SourceSansPro', Arial;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  background-color: #5b6c79;
+  background-image: -moz-linear-gradient(top, #728695, #5b6c79);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#728695), to(#5b6c79));
+  background-image: -webkit-linear-gradient(top, #728695, #5b6c79);
+  background-image: -o-linear-gradient(top, #728695, #5b6c79);
+  background-image: linear-gradient(to bottom, #728695, #5b6c79);
+  background-repeat: repeat-x;
+  border-color: #5b6c79 #5b6c79 #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .sign-in > .lost-password {
+  display: block;
+  margin: 10px 0;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .sign-in > .sign-in-or-line {
+  display: inline-block;
+  width: 42.5%;
+  border-bottom: 1px solid #D8D8D8;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .sign-in > .sign-in-or {
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  width: 15%;
+  font-size: 0.9em;
+  color: #BFBFBF;
+  text-align: center;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .sign-in > .sign-in-register {
+  display: block;
+  margin: 10px 0;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .welcome-back .avatar {
+  margin: 70px auto 20px;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content .homepage-head-cta > .cta .welcome-back h3 {
+  text-align: center;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content > .homepage-discover {
+  height: 593px;
+  text-align: center;
+  background-color: #FBFBFB;
+  background-image: url(../images/homepage/discover-awesomeness-screenshots.png), url(../images/homepage/discover-awesomeness-background.png), url(../images/homepage/discover-awesomeness-background-gradient.png);
+  background-position: center bottom, center top, left bottom;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  border-bottom: 1px solid #ECECEC;
+  box-sizing: border-box;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content > .homepage-discover h2 {
+  margin: 120px 0 0;
+  font-family: 'SourceSansPro', Arial;
+  font-size: 3em;
+  font-weight: 300;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content > .homepage-features .feature {
+  margin: 0 0 150px;
+  font-family: 'SourceSansPro', Arial;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content > .homepage-features .feature:first-child {
+  margin: 150px 0 150px;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content > .homepage-features .feature:last-child {
+  margin: 0;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content > .homepage-features .feature .hiddden {
+  opacity: 0;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content > .homepage-features .feature .visible {
+  opacity: 1;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content > .homepage-features .feature .screenshot {
+  min-height: 454px;
+  padding: 0;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content > .homepage-features .feature .screenshot:not(.offset1) {
+  direction: rtl;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content > .homepage-features .feature .screenshot > img {
+  max-width: none;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content > .homepage-features .feature .screenshot-right,
+body.FlamingParrot_DarkBlueGrey.homepage .main .content > .homepage-features .feature .screenshot-left {
+  -webkit-animation-duration: 0.5s;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content > .homepage-features .feature h3 {
+  margin: 0 0 30px;
+  font-size: 3em;
+  font-weight: 300;
+  line-height: 1.1em;
+  letter-spacing: 0.01em;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content > .homepage-features .feature p {
+  margin: 0 0 20px;
+  font-size: 1.1em;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content > .homepage-features .feature img {
+  margin: 0 0 30px;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content > .homepage-features .feature a > i {
+  margin: 0 2px 0 0;
+  font-size: 0.8em;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content > .homepage-features .feature ul {
+  margin: 0 0 10px 20px;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content > .homepage-features .feature ul > li {
+  margin: 0 0 10px;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage .main .content > .homepage-features .feature ul > li:last-child {
+  margin: 0 0 40px;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage footer {
+  margin-top: 200px;
+  background: #F7F7F7;
+  border: 0;
+  border-top: 3px solid #5b6c79;
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage.FlamingParrot_Blue .feature ul,
+body.FlamingParrot_DarkBlueGrey.homepage.FlamingParrot_DarkBlue .feature ul {
+  list-style-image: url(../images/homepage/bullet-blue.png);
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage.FlamingParrot_Red .feature ul,
+body.FlamingParrot_DarkBlueGrey.homepage.FlamingParrot_DarkRed .feature ul {
+  list-style-image: url(../images/homepage/bullet-red.png);
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage.FlamingParrot_Orange .feature ul,
+body.FlamingParrot_DarkBlueGrey.homepage.FlamingParrot_DarkOrange .feature ul {
+  list-style-image: url(../images/homepage/bullet-orange.png);
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage.FlamingParrot_Green .feature ul,
+body.FlamingParrot_DarkBlueGrey.homepage.FlamingParrot_DarkGreen .feature ul {
+  list-style-image: url(../images/homepage/bullet-green.png);
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage.FlamingParrot_BlueGrey .feature ul,
+body.FlamingParrot_DarkBlueGrey.homepage.FlamingParrot_DarkBlueGrey .feature ul {
+  list-style-image: url(../images/homepage/bullet-bluegrey.png);
+}
+
+body.FlamingParrot_DarkBlueGrey.homepage.FlamingParrot_Purple .feature ul,
+body.FlamingParrot_DarkBlueGrey.homepage.FlamingParrot_DarkPurple .feature ul {
+  list-style-image: url(../images/homepage/bullet-purple.png);
+}
+
+body.FlamingParrot_DarkBlueGrey #account-confirmation-header {
+  height: 336px;
+  background-image: url("../images/account-confirmation/account-registration-feedback-background-darkbluegrey.png");
+  background-position: center top;
+}
+
+body.FlamingParrot_DarkBlueGrey #account-confirmation-header > h2 {
+  padding: 280px 0 20px;
+  margin: 0;
+}
+
+body.FlamingParrot_DarkBlueGrey #account-confirmation-content i {
+  color: #5b6c79;
+}
+
+body.FlamingParrot_DarkBlueGrey #account-confirmation-content #account-confirmation-fake-email-title {
+  background-color: #5b6c79;
+}
+
+body.FlamingParrot_DarkBlueGrey #account-confirmation-content #account-confirmation-fake-email-button span {
+  background-color: #5b6c79;
+}
+
+body.FlamingParrot_DarkBlueGrey #account-confirmation-redirect a {
+  font-family: 'SourceSansPro', Arial;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  background-color: #5b6c79;
+  background-image: -moz-linear-gradient(top, #5b6c79, #5b6c79);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, #5b6c79, #5b6c79);
+  background-image: -webkit-linear-gradient(top, #5b6c79, #5b6c79);
+  background-image: -o-linear-gradient(top, #5b6c79, #5b6c79);
+  background-image: linear-gradient(to bottom, #5b6c79, #5b6c79);
+  background-repeat: repeat-x;
+  border-color: #5b6c79 #5b6c79 #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+body.FlamingParrot_DarkBlueGrey #project-confirmation-content p > i {
+  color: #5b6c79;
+}
+
+body.FlamingParrot_DarkBlueGrey #project-confirmation-redirect a {
+  font-family: 'SourceSansPro', Arial;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  background-color: #5b6c79;
+  background-image: -moz-linear-gradient(top, #5b6c79, #5b6c79);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, #5b6c79, #5b6c79);
+  background-image: -webkit-linear-gradient(top, #5b6c79, #5b6c79);
+  background-image: -o-linear-gradient(top, #5b6c79, #5b6c79);
+  background-image: linear-gradient(to bottom, #5b6c79, #5b6c79);
+  background-repeat: repeat-x;
+  border-color: #5b6c79 #5b6c79 #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+body.FlamingParrot_DarkBlueGrey .trove-mandatory {
+  margin-bottom: 10px;
+}
+
+body.FlamingParrot_DarkBlueGrey .trove-mandatory > input {
+  margin: 0;
+}
+
+body.FlamingParrot_DarkBlueGrey h2 {
+  font-size: 2em;
+}
+
+body.FlamingParrot_DarkBlueGrey h3 {
+  font-size: 1.3em;
+}
+
+body.FlamingParrot_DarkBlueGrey blockquote p {
+  font-size: 1em;
+}
+
+body.FlamingParrot_DarkBlueGrey input[type="file"] {
+  margin-top: -13px;
+}
+
+body.FlamingParrot_DarkBlueGrey .tooltip.in {
+  opacity: 1;
+}
+
+body.FlamingParrot_DarkBlueGrey .tooltip.right .tooltip-arrow {
+  border-right-color: #373737;
+}
+
+body.FlamingParrot_DarkBlueGrey .tooltip-inner {
+  background-color: #373737;
+}
+
+body.FlamingParrot_DarkBlueGrey .tour-backdrop {
+  opacity: 0.3;
+}
+
+body.FlamingParrot_DarkBlueGrey .popover[class*="tour"] {
+  max-width: 370px;
+  min-width: 370px;
+  padding: 0;
+  font-size: 0.85em;
+  color: #ffffff;
+  background: #1593c4;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+body.FlamingParrot_DarkBlueGrey .popover[class*="tour"].top .arrow:after {
+  border-top-color: #1593c4;
+}
+
+body.FlamingParrot_DarkBlueGrey .popover[class*="tour"].right .arrow:after {
+  border-right-color: #1593c4;
+}
+
+body.FlamingParrot_DarkBlueGrey .popover[class*="tour"].bottom .arrow:after {
+  border-bottom-color: #137fa8;
+}
+
+body.FlamingParrot_DarkBlueGrey .popover[class*="tour"].left .arrow:after {
+  border-left-color: #1593c4;
+}
+
+body.FlamingParrot_DarkBlueGrey .popover[class*="tour"] .popover-title {
+  font-size: 1.1em;
+  color: #ffffff;
+  background: #137fa8;
+  border: none;
+}
+
+body.FlamingParrot_DarkBlueGrey .popover[class*="tour"] .popover-navigation [data-role=prev],
+body.FlamingParrot_DarkBlueGrey .popover[class*="tour"] .popover-navigation [data-role=next] {
+  float: left;
+  margin-right: 5px;
+}
+
+body.FlamingParrot_DarkBlueGrey legend {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
+body.FlamingParrot_DarkBlueGrey .dropdown-menu {
+  z-index: 3000;
+}
+
+body.FlamingParrot_DarkBlueGrey .popover {
+  z-index: 4000;
+}
+
+body.FlamingParrot_DarkBlueGrey .popover .project-privacy {
+  font-size: 0.9em;
+}
+
+body.FlamingParrot_DarkBlueGrey .modal form {
+  margin: 0;
+}
+
+body.FlamingParrot_DarkBlueGrey {
+  padding: 45px 0 0 0;
+}
+
+body.FlamingParrot_DarkBlueGrey.widgetable {
+  background: #FCFCFC;
+}
+
+body.FlamingParrot_DarkBlueGrey > .wrapper {
+  position: relative;
+  min-height: 100%;
+}
+
+body.FlamingParrot_DarkBlueGrey.has_sidebar.sidebar-collapsed .sidebar-nav {
+  width: 45px;
+}
+
+body.FlamingParrot_DarkBlueGrey.has_sidebar.sidebar-collapsed .sidebar-nav .project-title-container {
+  width: 200px;
+  visibility: hidden;
+}
+
+body.FlamingParrot_DarkBlueGrey.has_sidebar.sidebar-collapsed .sidebar-nav li a {
+  width: 45px;
+}
+
+body.FlamingParrot_DarkBlueGrey.has_sidebar.sidebar-collapsed .sidebar-nav li a > span {
+  display: none;
+}
+
+body.FlamingParrot_DarkBlueGrey.has_sidebar.sidebar-collapsed .sidebar-nav .sidebar-about {
+  display: none;
+}
+
+body.FlamingParrot_DarkBlueGrey.has_sidebar.sidebar-collapsed .main {
+  margin-left: 45px;
+}
+
+body.FlamingParrot_DarkBlueGrey .main {
+  margin: 0;
+}
+
+body.FlamingParrot_DarkBlueGrey.has_sidebar .main {
+  margin: 0 0 0 200px;
+}
+
+body.FlamingParrot_DarkBlueGrey.admin_register #register-form form label .label-help {
+  display: none;
+}
+
+body.FlamingParrot_DarkBlueGrey.admin_register #register-background {
+  background-color: #FFF;
+  background-image: none;
+}
+
+body.FlamingParrot_DarkBlueGrey.register-page:not(.admin_register) > .wrapper {
+  background-color: #FBFBFB;
+}
+
+body.FlamingParrot_DarkBlueGrey.register-page .content {
+  padding: 0;
+  background-color: #FBFBFB;
+}
+
+body.FlamingParrot_DarkBlueGrey.search-page .navbar-search,
+body.FlamingParrot_DarkBlueGrey.search-page .header_searchbox {
+  display: none;
+}
+
+body.FlamingParrot_DarkBlueGrey.search-page .main .content {
+  padding: 0;
+}
+
+body.FlamingParrot_DarkBlueGrey.mediawiki .main .content {
+  padding: 0;
+}
+
+body.FlamingParrot_DarkBlueGrey.account-maintenance .main .content {
+  padding: 0;
+}
+
+body.FlamingParrot_DarkBlueGrey.account-maintenance .main .content h3.account-title {
+  font-size: 1.2em;
+}
+
+body.FlamingParrot_DarkBlueGrey.account-maintenance .main .content h3.account-title i.help-button {
+  vertical-align: initial;
+}

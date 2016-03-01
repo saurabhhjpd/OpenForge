@@ -1,0 +1,48 @@
+<div id="register-background" class="maindiv">
+	<div style="margin-left:40px;" class="width90 span6">
+	  <div class="span9 small_inner">
+	  <h4 class="signupslogan1">DigiLocker is an online storage for citizens to store their documents &amp; certificates digitally. Its benefits are:</h4>
+	<ul class="signupslogan1"><li>access your documents anytime, anywhere</li>
+		<li>submit documents digitally for verification</li>
+	   <li>eSign documents just like self-attestation</li>
+	   <li> minimize use of paper, environment friendly</li></ul>
+	   <br><br>
+	   <span class="sloganlink">Already have a DigiLocker account ?<a href="https://digilocker.gov.in/index.php" class="blue"> Sign In now</a></span>
+	</div>
+	</div>
+    <div id="register-form" class="span6">
+        <h2>Signup for OpenForge account</h2>
+
+    <form action="{{ form_url }}" name="new_user" method="post">
+        <div class="fields">
+            {{# prefill_values }}
+                {{# form_loginname }}
+                    {{# has_error }}
+                    <div class="control-group error">
+                        <div class="controls">
+                    {{/has_error }}
+                            <input type="text" id="form_loginname" name="form_loginname" placeholder="{{ login }} *" value="{{ value }}" required="required" />
+                    {{# has_error }}
+                            <span class="help-inline">{{ error }}</span>
+                        </div>
+                    </div>
+                    {{/has_error }}
+                {{/ form_loginname }}
+
+                {{# form_email }}
+                    {{# has_error }}
+                        <div class="control-group error">
+                            <div class="controls">
+                    {{/has_error }}
+                                <input type="email" id="form_email" name="form_email" placeholder="{{ email }} *" value="{{ value }}" required="required" data-email-suggestion="register-email-suggestion" />
+                    {{# has_error }}
+                                <span class="help-inline">{{ error }}</span>
+                            </div>
+                        </div>
+                    {{/has_error }}
+                {{/ form_email }}
+
+                {{> register-choose-email }}
+            {{/ prefill_values }}
+            <div class="email-suggestion" id="register-email-suggestion"></div>
+        </div>

@@ -1,0 +1,13 @@
+<?php // -*-html-*-
+  rcs_id('');
+?>
+<hr class="printer" noshade="noshade" />
+<?php
+global $HIDE_TOOLBARS;
+if (!$HIDE_TOOLBARS) {
+?>
+<hr class="toolbar" noshade="noshade" />
+<div class="toolbar">
+<?= Template('actionbar') ?>
+</div>
+<?php } ?>

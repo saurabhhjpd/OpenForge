@@ -1,0 +1,28 @@
+<div class="sidebar-nav">
+    <div class="project-title-container" data-content="{{{ project_privacy }}}" data-placement="right">
+        <a href="{{ projectLink }}" id="sidebar-dashboard" class="project-title">
+            {{#projectIsPublic}}
+                <i class="icon-unlock"></i>
+            {{/projectIsPublic}}
+            {{^projectIsPublic}}
+                <i class="icon-lock"></i>
+            {{/projectIsPublic}}
+
+            {{ projectName }}
+        </a>
+    </div>
+    <ul class="nav nav-list">
+        {{#sidebar}}
+            <li {{#enabled}}class="active"{{/enabled}}>
+                <a id="{{ id }}" href="{{{ link }}}" aria-label="{{{ name }}}" title="{{{ name }}}"><i class="{{ icon }}"></i> {{{ label }}}</a>
+            </li>
+        {{/sidebar}}
+    </ul>
+    {{# is_sidebar_collapsable }}
+        <i id="sidebar-collapser" class="icon-chevron-left sidebar-collapse"></i>
+    {{/ is_sidebar_collapsable }}
+    <div class="sidebar-about">
+        <p>{{{ powered_by }}}</p>
+        <p>{{{ copyright }}}</p>
+    </div>
+</div>

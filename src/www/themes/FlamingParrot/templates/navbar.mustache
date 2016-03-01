@@ -1,0 +1,36 @@
+<div class="navbar navbar-fixed-top">
+    {{# has_motd }}<div class="motd">{{{ motd }}}</div>{{/ has_motd }}
+	<div class="col-md-1">
+	<img height="54" width="42" class="img-responsive lionimg" src="/themes/FlamingParrot/images/nationalemblemindia.png"></div>
+    <div class="col-md-11"><a id="navbar-logo" href="/"><div class="logo"></div></a>
+    <div class="navbar-inner">
+        <div class="container-fluid">
+            <ul class="nav">
+                {{# user_is_logged_in }}
+                <li class={{ nav_my_class }}>
+                    <a id="navbar-my" href="/my/">
+                        My Page
+                    </a>
+                </li>
+                {{/ user_is_logged_in }}
+
+                {{> navbar-project }}
+
+                {{# there_are_extra_tabs }}
+                    {{> navbar-extra-tabs }}
+                {{/ there_are_extra_tabs }}
+
+                
+
+                {{# user_is_admin }}
+                    <li class={{ nav_admin_class }}>
+                        <a href="/admin/">
+                            Admin
+                        </a>
+                    </li>
+                {{/ user_is_admin }}
+            </ul>
+            {{> navbar-user-navigation }}
+        </div>
+    </div></div>
+</div>

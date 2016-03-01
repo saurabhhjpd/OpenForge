@@ -1,0 +1,73 @@
+<h2>My Account</h2>
+<div id="account-user-info">
+	<h3>Profile Information</h3>
+    <div class="first-user-info">
+        <div class="user-personnal-info">
+		<table class="user-info-table">
+			<tr>
+				<td class="user-info-label table-label">Name: </td>
+				<td><span class="user-real-name_c">{{ real_name }}</span><span>{{# can_change_real_name }}<a href="change_realname.php" class="btn_link">&nbsp;(edit)</a>{{/ can_change_real_name }}</span></td>
+			</tr>
+			<tr>
+				<td class="user-info-label table-label">Username: </td>
+				<td><span class="user-username_c">{{ user_username }}</span></td>
+			</tr>
+			<tr>
+				<td class="user-info-label table-label">Email: </td>
+				<td>{{ user_email_value }} {{# can_change_email }}<a href="change_email.php" class="btn_link">(edit)</a>{{/ can_change_email }}</td>
+			</tr>
+			<tr>
+				<td class="user-info-label table-label">{{ member_since_label }}</td>
+				<td>{{member_since_value }}</td>
+			</tr>
+			<tr>
+				<td class="user-info-label table-label">User Type: </td>
+				<td>{{ user_user_type_value }} {{# can_change_user_type }}<a href="change_user_type.php" class="btn_link">(edit)</a>{{/ can_change_user_type }}</td>
+			</tr>
+			<tr>
+				<td class="user-info-label table-label">Short Description: </td>
+				<td>{{ user_short_descr_value }} {{# can_change_short_descr }}<a href="change_short_descr.php" class="btn_link">(edit)</a>{{/ can_change_short_descr }}</td>
+			</tr>
+			<tr>
+				<td class="user-info-label table-label">Twitter: </td>
+				<td>{{ user_twitter_value }} {{# can_change_twitter }}<a href="change_twitter.php" class="btn_link">(edit)</a>{{/ can_change_twitter }}</td>
+			</tr>
+			<tr>
+				<td class="user-info-label table-label">Linkedin: </td>
+				<td>{{ user_linkedin_value }} {{# can_change_linkedin }}<a href="change_linkedin.php" class="btn_link">(edit)</a>{{/ can_change_linkedin }}</td>
+			</tr>
+			<tr>
+				<td class="user-info-label table-label">Website: </td>
+				<td>{{ user_website_value }} {{# can_change_website }}<a href="change_website.php" class="btn_link">(edit)</a>{{/ can_change_website }}</td>
+			</tr>
+			<tr>
+				<td class="user-info-label table-label">Github: </td>
+				<td>{{ user_github_value }} {{# can_change_github }}<a href="change_github.php" class="btn_link">(edit)</a>{{/ can_change_github }}</td>
+			</tr>
+			<tr>
+				<td class="user-info-label table-label">City: </td>
+				<td>{{ user_city_value }} {{# can_change_city }}<a href="change_city.php" class="btn_link">(edit)</a>{{/ can_change_city }}</td>
+			</tr>
+			<tr>
+				<td class="user-info-label table-label">Country: </td>
+				<td>{{ user_country_value }} {{# can_change_country }}<a href="change_country.php" class="btn_link">(edit)</a>{{/ can_change_country }}</td>
+			</tr>
+			<tr>
+				<td class="user-info-label table-label">Password: </td>
+				<td>{{# can_change_password }}<a href="change_pw.php" class="btn_link">(edit)</a>{{/ can_change_password }}</td>
+			</tr>
+		</table>
+        </div>
+    </div>
+
+    <div style="clear:both"></div>
+
+    <table class="user-info-table">
+        {{# extra_user_info }}
+        <tr>
+            <td class="user-info-label table-label">{{ label }}</td>
+            <td>{{{ value }}} {{# can_change }}{{{ change }}}{{/ can_change }}</td>
+        </tr>
+        {{/ extra_user_info }}
+    </table>
+</div>

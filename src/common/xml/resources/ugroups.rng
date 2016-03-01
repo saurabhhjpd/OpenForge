@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <include href="ugroups-definition.rng"/>
+  <start>
+    <element name="ugroups">
+      <ref name="ugroups"/>
+    </element>
+  </start>
+</grammar>
