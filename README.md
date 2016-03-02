@@ -12,3 +12,6 @@ changes done in branch developent are to be merged to master
 
 changes done in branch developent are to be merged to masterchanges done in branch developent are to be merged to masterchanges done in branch developent are to be merged to masterchanges done in branch developent are to be merged to masterchanges done in branch developent are to be merged to masterchanges done in branch developent are to be merged to masterchanges done in branch developent are to be merged to master
 >>>>>>> development
+
+
+the change is from master to check if pull works from master to local copy .
